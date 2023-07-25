@@ -1,0 +1,147 @@
+table {
+    width : 100%;
+}
+
+
+table ,th, td {
+    border: 1px solid #94a3b8;
+}
+
+td , th{
+    padding: 5px;
+}
+
+td {
+    text-align: center;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: rgb(202, 197, 197);
+}
+
+thead > tr{
+    background-color: rgb(199, 250, 149);
+}
+
+.swal-button--cancel{
+    background-color: rgb(241, 15, 15);
+    color:azure
+}
+
+.swal-button--cancel:hover{
+    background-color: rgb(228, 133, 133);
+    color: black;
+}
+
+
+.swal-button--confirm{
+    background-color: rgb(10, 25, 240);
+    color: azure;
+}
+
+.swal-button--confirm:hover{
+    background-color: rgb(55, 73, 151);
+    color: black;
+}
+
+
+td > img {
+    display:inline !important;
+    justify-items: center;
+    border-radius: 5px;
+}
+
+
+label {
+    color: rgb(81, 108, 226) !important;
+}
+
+
+.select2-container .select2-selection--single {
+
+    line-height: 42px !important;
+}
+
+input[type= 'text']{
+    height: 28px !important;
+    border-color: rgb(158, 156, 156) !important;
+}
+
+input[type='checkbox']{
+    height: 20px !important;
+    width: 20px;
+    align-items: start;
+    border-color: rgb(158, 156, 156) !important;
+}
+
+.tik{
+
+    font-family: DejaVu Sans , sans-serif;
+    color : rgb(16, 153, 4)
+}
+
+.cross{
+    font-family: DejaVu Sans , sans-serif;
+    color : #ef4444;
+}
+
+
+.total-price{
+    background-color: rgb(168, 214, 94);
+    border-color: rgb(133, 165, 83) ;
+    border: 3px solid;
+    width: 40%;
+    height: 70px;
+    box-shadow: 2px 2px 6px gray;
+    border-radius: 15px;
+    margin: 10px;
+    padding : 30px
+}
+
+.total-price > h3{
+    color: rgb(65, 93, 218);
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
+.total-price > h4{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.total-price:hover{
+    background-color: rgb(184, 211, 140);
+    border-color: rgb(59, 85, 16) ;
+
+}
+
+.total-count{
+    background-color: rgb(168, 214, 94);
+    border-color: rgb(133, 165, 83) ;
+    border: 3px solid;
+    width: 24%;
+    height: 70px;
+    box-shadow: 2px 2px 6px gray;
+    border-radius: 15px;
+    margin: 10px;
+    margin-left: 0;
+    padding : 30px
+}
+
+.total-count > h3{
+    color: rgb(65, 93, 218);
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.total-count > h4{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.total-count:hover{
+    background-color: rgb(184, 211, 140);
+    border-color: rgb(59, 85, 16) ;
+}
